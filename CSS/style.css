@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* global code start */
+body{
+     font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 75%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    height: 60vh;
+    float: left;
+}
+/* global code end */
+
+/* header section start */
+header{
+    width: 100%;
+    float: left;
+}
+.jihad{
+    background-color: #015761;
+    width: 50%;
+    height: 60vh;
+    position: relative;
+
+}
+nav{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    float: left;
+}
+nav h4{
+    color: #9DAB55;
+}
+.yellow{
+    color: #9DAB55;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+     float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 8px;
+    font-size: .7rem;
+    color: white;
+}
+nav li a:hover{
+    color: rgb(245, 163, 148);
+}
+.hey{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2.2rem;
+}
+.hey span{
+    font-size: 3rem;
+    color: white;
+}
+.hey h1{
+    font-size: 1.5rem;
+}
+.hey p{
+    color: white;
+    font-size: .8rem;
+}
+.col-6 .img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+ .social{
+    position: fixed;
+    top: 35%;
+    right: 12%;
+    background-color: #F7DC4F;
+   
+}
+.social a{
+    display: block;
+    color: black;
+    padding: 5px;
+    font-size: .9rem;
+}
+.social a:hover{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(134, 127, 112);
+}
+/* header section end */
+
+/* about section start */
+.about{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.about-me{
+    width: 60%;
+    margin: auto;
+    padding: 60px;
+}
+.about-me h1{
+    color: #00525C;
+    padding-bottom: 15px;
+}
+.about-me button{
+    background-color: #F7DC4F;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.about-me button a{
+    text-decoration: none;
+    color: #49493b;
+    font-size: 1.1rem;
+}
+.about-me button:hover{
+    background-color: yellowgreen;
+}
+/* about section end */
+
+/* showreel section start */
+
+
+.showreel h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 2.7rem;
+    color: #00525C;
+}
+.showreel video{
+    width: 100%;
+    max-height: 500px;
+    background-color: rgb(216, 228, 228);
+}
+/* showreel section end */
+
+/* photos section start */
+.photo h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 2.7rem;
+    color: #00525C;
+}
+.photo div{
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    padding: 5px;
+}
+.photo div img{
+    width: 100%;
+    height: 100%;
+}
+/* photos section end */
+
+/* contact section start */
+.contact-main{
+    margin: 40px 0;
+}
+.contact-img img{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.contact{
+    background-color: #015761;
+}
+/* contact section end */
+
+/* foooter section start */
+footer{
+    text-align: center;
+    background-color: rgb(229, 240, 240);
+}
+footer p{
+    padding: 15px;
+    font-size: .9rem;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(68, 3, 3);
+    font-size: 1.1rem;
+}

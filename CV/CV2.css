@@ -1,0 +1,135 @@
+* {margin: 0;
+   padding: 0;}
+
+body    {
+         background-color: whitesmoke;
+}   
+.container  {
+             background-color: #fff;
+             margin: 0 auto;
+             width: 60%;
+}
+.header   {display: flex;
+           flex-direction: row;
+           padding: 15px;
+           flex: 100%;
+           justify-content: space-around;
+           
+}
+.profile-img  {display: flex;}
+.profile-img img {
+              width: 100px;
+              height: 115px;
+              border-radius: 50px;
+}
+.header-bio  {
+               padding: 20px 10px;
+}
+.header-contact  {
+                  font-size: 18px;
+                  padding: 20px 10px;
+}
+.header-contact a {
+                   text-decoration: none;
+                   color: darkcyan;
+}
+.header-contact a:hover  {
+                          font-size: 19px;
+                          color: tomato;
+}
+@media all and (max-width: 500px) { body  {font-size: .8em;}
+                                  .header {flex-direction: column;}
+                                   .container {width: auto;}
+                                  .profile-img {flex-direction: column;}
+                                  .personal-information {flex-direction: column;}
+                                  
+                                
+                                }
+         /*end container*/
+hr   {border: solid black;
+      margin: 0 25px;}
+
+       /*start information*/
+.personal-information  {box-sizing: border-box;
+                        
+                       display: flex;
+                       
+                       
+                      padding: 25px;
+}
+.personal  {   box-sizing: border-box;
+              width: 33vw;
+               color: rgb(36, 101, 221);
+               align-content: center;
+               }
+               
+.information   {width: 67vw;
+                 
+                
+               justify-content: flex-end;}
+.hr  hr {border: 1px solid black;}
+/* start work experience*/
+.work-experience   { 
+                    display: flex;
+                    padding: 25px;
+}
+.work      {width: 33vw;
+            color: rgb(36, 101,221);
+            }
+
+.experience   {
+               width: 67vw;
+}
+h4, h6  {color: rgb(36, 101, 221);}
+/* end work experience*/
+
+/* start key skills */
+.key-skills   {
+              display: flex;
+              padding: 25px;
+}
+.key   {width: 33vw;
+    color: rgb(36, 101,221);
+    }
+.skills  {
+    width: 67vw;
+}
+.key-skills    h4, h6  {color: rgb(36, 101, 221);}
+/*  end key skills */
+
+/* education */
+.education   {
+            display: flex;
+            padding: 25px;
+}
+.edu    {width: 33vw;
+    color: rgb(36, 101,221);
+    }
+
+.ssc, .diploma  {width: 33.5vw;}
+
+/*end education */
+
+/* start references */
+
+.references   {
+    display: flex;
+    padding: 25px;
+}
+.reference   {width: 33vw;
+    color: rgb(36, 101,221);
+    }
+.Ismail, .babu  {width: 33.5vw;}
+/* start footer */
+.footer    {
+    text-align: center;
+    padding: 10px 25px;
+    background-color: rgb(185, 147, 147);
+    margin: 8px 0;
+}
+.footer a {
+           text-decoration: none;
+           padding: 5px;
+}
+.footer a:hover  {background-color: tomato;}
+
